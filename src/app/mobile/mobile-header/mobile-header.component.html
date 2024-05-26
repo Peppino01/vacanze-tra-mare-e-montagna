@@ -1,0 +1,20 @@
+<ng-template #content let-offcanvas>
+    <div class="offcanvas-header">
+        <img src="assets/icons/exit-button.png" (click)="offcanvas.dismiss()">
+        <div id="spacer"></div>
+        <img src="assets/icons/en_flag.png" (click)="offcanvas.dismiss()">
+        <img src="assets/icons/it_flag.png" (click)="offcanvas.dismiss()">
+    </div>
+    <div class="offcanvas-body">
+        <p (click)="goToPage('home')">Home</p>
+        <p (click)="goToPage('casa-di-cofano')">Casa di Cofano</p>
+        <p (click)="goToPage('casa-di-vito')">Casa di Vito</p>
+    </div>
+</ng-template>
+
+<div id="headerContainer">
+    <img src="assets/icons/menu-button.png" (click)="open(content)">
+    <h1>Vacanze tra<br>mare e montagna</h1>
+    <img src="assets/icons/logo.png">
+</div>
+
