@@ -1,0 +1,30 @@
+#container {
+    margin: 16px;
+}
+
+img {
+    width: -webkit-fill-available;
+}
+
+.info-box {
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid var(--background);
+    border-inline-width: 0;
+}
+
+#map {
+    width: -webkit-fill-available;
+}
+
+#review-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#review-container img {
+    height: 60px;
+    width: auto;
+}

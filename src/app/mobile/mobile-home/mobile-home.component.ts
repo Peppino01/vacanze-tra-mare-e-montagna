@@ -10,7 +10,6 @@ import { Router } from '@angular/router';
 })
 export class MobileHomeComponent {
 
-  
   constructor(private router: Router) {}
 
   goToPage(page: string) {

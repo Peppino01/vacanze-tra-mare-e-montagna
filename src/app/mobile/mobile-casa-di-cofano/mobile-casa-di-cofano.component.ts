@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-mobile-casa-di-cofano',
@@ -9,4 +10,10 @@ import { Component } from '@angular/core';
 })
 export class MobileCasaDiCofanoComponent {
 
+  constructor(private router: Router) {}
+
+  redirectTo(url: string) {
+    window.location.href = url
+  }
+  
 }
