@@ -1,0 +1,17 @@
+#container {
+    background-color: var(--background);
+    padding: 22px;
+}
+
+#info, #title {
+    text-align: center;
+}
+
+#bookingImg {
+    width: fit-content;
+    margin: auto;
+}
+
+#bookingImg img {
+    width: 50px;
+}

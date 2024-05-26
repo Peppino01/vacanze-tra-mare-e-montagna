@@ -9,4 +9,9 @@ import { Component } from '@angular/core';
 })
 export class DesktopFooterComponent {
 
+  goToBooking() {
+    window.open("https://www.booking.com/hotel/it/a-casa-di-vito-custonaci.it.html", "_blank");
+    window.open("https://www.booking.com/hotel/it/la-casa-di-cofano.it.html", "_blank");
+  }
+
 }
