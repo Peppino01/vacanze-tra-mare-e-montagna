@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-mobile-home',
@@ -8,5 +9,12 @@ import { Component } from '@angular/core';
   styleUrl: './mobile-home.component.scss'
 })
 export class MobileHomeComponent {
+
+  
+  constructor(private router: Router) {}
+
+  goToPage(page: string) {
+    this.router.navigate([page]);
+  }
 
 }

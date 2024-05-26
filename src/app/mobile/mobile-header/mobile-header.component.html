@@ -6,9 +6,9 @@
         <img src="assets/icons/it_flag.png" (click)="offcanvas.dismiss()">
     </div>
     <div class="offcanvas-body">
-        <p>Home</p>
-        <p>Casa di Cofano</p>
-        <p>Casa di Vito</p>
+        <p (click)="goToPage('home')">Home</p>
+        <p (click)="goToPage('casa-di-cofano')">Casa di Cofano</p>
+        <p (click)="goToPage('casa-di-vito')">Casa di Vito</p>
     </div>
 </ng-template>
 

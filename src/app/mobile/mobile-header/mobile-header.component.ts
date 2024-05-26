@@ -1,4 +1,5 @@
 import { Component, inject, TemplateRef } from '@angular/core';
+import { Router } from '@angular/router';
 import { NgbOffcanvas } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
@@ -12,8 +13,15 @@ export class MobileHeaderComponent {
 
   private offcanvasService = inject(NgbOffcanvas);
 
+  constructor(private router: Router) {}
+
 	open(content: TemplateRef<any>) {
 		this.offcanvasService.open(content);
 	}
+
+  goToPage(page: string) {
+    this.router.navigate([page]);
+    this.offcanvasService.dismiss()
+  }
 
 }

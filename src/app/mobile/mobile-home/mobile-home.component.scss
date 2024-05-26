@@ -1,0 +1,17 @@
+#container {
+    margin: 16px;
+}
+
+
+.imgHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.imgHeader * {
+    margin: 0;
+}
+
+.imgContainer img{
+    width: -webkit-fill-available;
+}
