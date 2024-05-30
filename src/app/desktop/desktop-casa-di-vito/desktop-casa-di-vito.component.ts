@@ -9,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class DesktopCasaDiVitoComponent {
 
+  redirectTo(url: string) {
+    window.location.href = url
+  }
+
 }
