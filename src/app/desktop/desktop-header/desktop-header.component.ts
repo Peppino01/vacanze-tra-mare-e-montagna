@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-desktop-header',
@@ -8,5 +9,11 @@ import { Component } from '@angular/core';
   styleUrl: './desktop-header.component.scss'
 })
 export class DesktopHeaderComponent {
+
+  constructor(private router: Router) {}
+
+  goToPage(page: string) {
+    this.router.navigate([page])
+  }
 
 }
