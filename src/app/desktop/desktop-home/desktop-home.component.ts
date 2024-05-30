@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-desktop-home',
@@ -9,4 +10,10 @@ import { Component } from '@angular/core';
 })
 export class DesktopHomeComponent {
 
+  constructor(private router: Router) {}
+
+  goToPage(page: string) {
+    this.router.navigate([page])
+  }
+  
 }

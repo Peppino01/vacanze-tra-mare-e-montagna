@@ -1,0 +1,61 @@
+#pageContainer {
+    margin-inline: 25%;
+}
+
+#title {
+    text-align: center;
+    margin: 40px;
+}
+
+#corousel {
+    width: 100%;
+    height: 10%;
+}
+
+.infoBox {
+    width: fit-content;
+    padding: 20px 50px;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    border: 2px solid var(--background);
+    border-left: none;
+    border-right: none;
+}
+
+#mapContainer p{
+    text-align: justify;
+}
+#map {
+    width: 100%;
+    height: 400px;
+}
+
+#servicesContainer div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+#reviewsContainer h3 {
+    text-align: center;
+    margin: 0 0 20px;
+}
+#reviewImages {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#reviewImages img {
+    width: 80px;
+    cursor: pointer;
+}
+
+svg {
+    width: 24px;
+    height: 24px;
+}
