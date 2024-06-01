@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-desktop-home',
   standalone: true,
-  imports: [],
+  imports: [ TranslateModule ],
   templateUrl: './desktop-home.component.html',
   styleUrl: './desktop-home.component.scss'
 })

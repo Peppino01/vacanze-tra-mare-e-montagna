@@ -12,6 +12,21 @@
         <div (click)="goToPage('casa-di-vito')">Casa di Vito</div>
     </div>
 
-    <img id="languageIcon" src="assets/icons/it_flag.png">
+    <div ngbDropdown>
+        <div ngbDropdownToggle id="dropdownToggle">
+            <img *ngIf="translate.currentLang === 'it'" id="languageIcon" src="assets/icons/it_flag.png">
+            <img *ngIf="translate.currentLang === 'en'" id="languageIcon" src="assets/icons/en_flag.png">
+        </div>
+        <div ngbDropdownMenu>
+            <div class="ngbDropdownItem" ngbDropdownItem (click)="switchLanguage('it')">
+                <img id="languageIcon" src="assets/icons/it_flag.png">
+                Italiano
+            </div>
+            <div class="ngbDropdownItem" ngbDropdownItem (click)="switchLanguage('en')">
+                <img id="languageIcon" src="assets/icons/en_flag.png">
+                English
+            </div>
+        </div>
+    </div>
 
 </div>
