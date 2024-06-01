@@ -1,0 +1,48 @@
+{
+    "DESKTOP":
+    {
+        "HELLO": "Scegli la tua casa vacanze: rilassati e goditi mare e montagna!",
+
+        "MAP_TITLE_CASADICOFANO": "Un paradiso naturale,",
+        "MAP_TEXT_CASADICOFANO": "situato lontano dal caos del centro città e incastonato nella splendida riserva naturale di Monte Cofano. In questo incantevole baglio, la serenità e il silenzio regnano sovrani, offrendo a voi l'opportunità di allontanarvi dalla frenetica vita urbana e immergervi completamente nella bellezza incontaminata della natura e del mare della Sicilia.",
+        "MAP_TITLE_CASADIVITO": "Una posizione strategica",
+        "MAP_TEXT_CASADIVITO": "Custonaci offre una casa incantevole a metà strada tra Trapani e San Vito. Ideale per esplorare la regione, è a pochi passi dal mare e circondata da riserve naturali, perfetta per gli amanti della natura.",
+        
+        "REVIEWS_TITLE": "Leggi le recensioni"
+    },
+    
+    "MOBILE":
+    {
+        "HELLO_1": "Scegli la tua casa vacanze:",
+        "HELLO_2": "rilassati e goditi mare e montagna!",
+
+        "INTRO_CASADICOFANO": "Benvenuti alla nostra casetta nel cuore della natura, ai piedi del monte Cofano, a due passi dal mare. Qui troverete serenità e relax.",
+        "INTRO_CASADIVITO": "Benvenuti nella nostra casa nel cuore di Custonaci, a due passi da Cornino e nelle vicinanze delle affascinanti città di Trapani e San Vito, rinomate per il loro fascino turistico. Il mare è a portata di mano per un soggiorno indimenticabile.",
+        
+        "MAP_TITLE_CASADICOFANO": "Un paradiso naturale,",
+        "MAP_TEXT_CASADICOFANO": "situato lontano dal caos del centro città e incastonato nella splendida riserva naturale di Monte Cofano. In questo incantevole baglio, la serenità e il silenzio regnano sovrani, offrendo a voi l'opportunità di allontanarvi dalla frenetica vita urbana e immergervi completamente nella bellezza incontaminata della natura e del mare della Sicilia.",
+        "MAP_TITLE_CASADIVITO": "Una posizione strategica",
+        "MAP_TEXT_CASADIVITO": "Custonaci offre una casa incantevole a metà strada tra Trapani e San Vito. Ideale per esplorare la regione, è a pochi passi dal mare e circondata da riserve naturali, perfetta per gli amanti della natura.",
+        
+        "REVIEWS_TITLE": "Leggi le recensioni"
+    },
+
+    "INFO":
+    {
+        "BEDS": "Posti letto",
+        "AREA": "Superfice"
+    },
+
+    "SERVICES":
+    {
+        "TITLE": "Servizi inclusi",
+        "PARKING": "Parcheggio",
+        "AIR_CONDITIONING": "Area condizionata",
+        "GARDEN": "Giardino",
+        "HEATING": "Riscaldamento",
+        "FLAT_SCREEN_TV": "TV a schermo piatto",
+        "SOFA_BED": "Divano letto",
+        "WASHING_MACHINE": "Lavatrice"
+    }
+    
+}

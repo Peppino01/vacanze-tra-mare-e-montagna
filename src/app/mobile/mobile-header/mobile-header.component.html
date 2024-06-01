@@ -2,8 +2,22 @@
     <div class="offcanvas-header">
         <img src="assets/icons/exit-button.png" (click)="offcanvas.dismiss()">
         <div id="spacer"></div>
-        <img src="assets/icons/en_flag.png" (click)="offcanvas.dismiss()">
-        <img src="assets/icons/it_flag.png" (click)="offcanvas.dismiss()">
+        <div ngbDropdown>
+			<div ngbDropdownToggle id="dropdownToggle">
+                <img *ngIf="translate.currentLang === 'it'" id="languageIcon" src="assets/icons/it_flag.png">
+                <img *ngIf="translate.currentLang === 'en'" id="languageIcon" src="assets/icons/en_flag.png">
+			</div>
+			<div ngbDropdownMenu>
+                <div ngbDropdownItem (click)="switchLanguage('it');offcanvas.dismiss()">
+                    <img id="languageIcon" src="assets/icons/it_flag.png">
+                    Italiano
+                </div>
+                <div ngbDropdownItem (click)="switchLanguage('en');offcanvas.dismiss()">
+                    <img id="languageIcon" src="assets/icons/en_flag.png">
+                    English
+                </div>
+			</div>
+		</div>
     </div>
     <div class="offcanvas-body">
         <p (click)="goToPage('home')">Home</p>

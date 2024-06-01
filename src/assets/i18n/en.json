@@ -1,0 +1,47 @@
+{
+    "DESKTOP":
+    {
+        "HELLO": "Choose your holiday home: relax and enjoy sea and mountain!",
+
+        "MAP_TITLE_CASADICOFANO": "A natural paradise,",
+        "MAP_TEXT_CASADICOFANO": "located away from the city center chaos and nestled in the beautiful Monte Cofano nature reserve. In this charming baglio, serenity and silence reign supreme, offering you the opportunity to escape from the hectic urban life and immerse yourself completely in the pristine beauty of nature and the sea of Sicily.",
+        "MAP_TITLE_CASADIVITO": "A strategic location",
+        "MAP_TEXT_CASADIVITO": "Custonaci offers a lovely home halfway between Trapani and San Vito. Ideal for exploring the region, it is a stone's throw from the sea and surrounded by natural reserves, perfect for nature lovers.",
+        
+        "REVIEWS_TITLE": "Read reviews"
+    },
+    
+    "MOBILE":
+    {
+        "HELLO_1": "Choose your holiday home:",
+        "HELLO_2": "relax and enjoy sea and mountain!",
+
+        "INTRO_CASADICOFANO": "Welcome to our little house in the heart of nature, at the foot of Mount Cofano, just steps from the sea. Here you will find serenity and relaxation.",
+        "INTRO_CASADIVITO": "Welcome to our home in the heart of Custonaci, close to Cornino and near the charming towns of Trapani and San Vito, renowned for their tourist charm. The sea is within reach for an unforgettable stay.",
+        
+        "MAP_TITLE_CASADICOFANO": "A natural paradise,",
+        "MAP_TEXT_CASADICOFANO": "located away from the city center chaos and nestled in the beautiful Monte Cofano nature reserve. In this charming baglio, serenity and silence reign supreme, offering you the opportunity to escape from the hectic urban life and immerse yourself completely in the pristine beauty of nature and the sea of Sicily.",
+        "MAP_TITLE_CASADIVITO": "A strategic location",
+        "MAP_TEXT_CASADIVITO": "Custonaci offers a lovely home halfway between Trapani and San Vito. Ideal for exploring the region, it is a stone's throw from the sea and surrounded by natural reserves, perfect for nature lovers.",
+        
+        "REVIEWS_TITLE": "Read reviews"
+    },
+
+    "INFO":
+    {
+        "BEDS": "Beds",
+        "AREA": "Area"
+    },
+
+    "SERVICES":
+    {
+        "TITLE": "Included services",
+        "PARKING": "Parking",
+        "AIR_CONDITIONING": "Air conditioning",
+        "GARDEN": "Garden",
+        "HEATING": "Heating",
+        "FLAT_SCREEN_TV": "Flat screen TV",
+        "SOFA_BED": "Sofa bed",
+        "WASHING_MACHINE": "Washing machine"
+    }
+}

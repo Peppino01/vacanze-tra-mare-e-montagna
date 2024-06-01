@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-mobile-casa-di-cofano',
   standalone: true,
-  imports: [],
+  imports: [ TranslateModule ],
   templateUrl: './mobile-casa-di-cofano.component.html',
   styleUrl: './mobile-casa-di-cofano.component.scss'
 })

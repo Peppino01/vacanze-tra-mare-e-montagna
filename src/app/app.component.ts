@@ -7,13 +7,14 @@ import { DesktopHeaderComponent } from "./desktop/desktop-header/desktop-header.
 import { MobileFooterComponent } from "./mobile/mobile-footer/mobile-footer.component";
 import { DesktopFooterComponent } from "./desktop/desktop-footer/desktop-footer.component";
 import { CommonModule } from '@angular/common';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.scss',
-    imports: [RouterOutlet, CommonModule, MobileHeaderComponent, DesktopHeaderComponent, MobileFooterComponent, DesktopFooterComponent]
+    imports: [RouterOutlet, CommonModule, MobileHeaderComponent, DesktopHeaderComponent, MobileFooterComponent, DesktopFooterComponent, TranslateModule]
 })
 export class AppComponent {
   
@@ -21,7 +22,8 @@ export class AppComponent {
   
   constructor(
     private router: Router,
-    private deviceService: DeviceDetectorService
+    private deviceService: DeviceDetectorService,
+    public translate: TranslateService
   )
   {
     // Definisco le rotte in base al tipo di dispositivo dell'utente
@@ -34,6 +36,12 @@ export class AppComponent {
     {
       this.router.resetConfig(desktopRoutes)
     }
+
+    // Configuro la lingua
+    translate.addLangs(['en', 'it'])
+    this.translate.setDefaultLang('it'); // Viene utilizzata solo in caso non sia selezionata nessuna lingua o una traduzione della lingua selezionata non sia disponibile
+    translate.use(localStorage.getItem('language') || 'it')
+    
   }
   
 }
