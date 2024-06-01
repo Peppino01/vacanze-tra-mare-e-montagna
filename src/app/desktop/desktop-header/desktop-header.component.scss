@@ -8,6 +8,8 @@
 
 #logo {
     height: 50px;
+    
+    user-select: none;
 }
 
 h1 {
@@ -15,6 +17,8 @@ h1 {
     margin: 0;
     font-size: 32px;
     font-weight: normal;
+    
+    user-select: none;
 }
 
 #spacer {
@@ -31,6 +35,8 @@ h1 {
     cursor: pointer;
 
     border-bottom: 1px solid transparent;
+    
+    user-select: none;
 }
 #pagesLinks div:hover{
     border-bottom: 1px solid black;
@@ -38,4 +44,14 @@ h1 {
 
 #languageIcon {
     height: 30px;
+}
+
+#dropdownToggle {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.ngbDropdownItem {
+    cursor: pointer;
+    user-select: none;
 }
