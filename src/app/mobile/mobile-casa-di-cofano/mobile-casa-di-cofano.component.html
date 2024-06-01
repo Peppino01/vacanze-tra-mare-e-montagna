@@ -6,7 +6,10 @@
 
     <br>
 
-    <img src="assets/foto/la casa di Cofano/facciata.jpg">
+    <video width="100%" controls>
+        <source src="assets\pictures\mobile\la casa di Cofano\video.mp4" type="video/mp4">
+        Il tuo browser non supporta la riproduzione video.
+    </video>
 
     <br><br><br>
 
@@ -69,6 +72,23 @@
         <img (click)="redirectTo('https://www.airbnb.it/rooms/642761850477435819')" src="assets/icons/airbnb.jpg">
     </div>
 
-    <br>
+    <br><br>
+
+    <h4 class="text-center">{{ 'MOBILE.OTHER_PICTURES' | translate }}</h4>
+
+    <div [ngClass]="{ 'fullScreen': isFullScreen }">
+        <div id="carouselContainer">
+            <img class="fullScreenIcon" [src]="isFullScreen ? 'assets/icons/full-screen-exit.png' : 'assets/icons/full-screen.png'" (click)="toggleFullScreen()">
+            <ngb-carousel #carousel>
+                <ng-template ngbSlide *ngFor="let image of images">
+                    <div class="picsum-img-wrapper">
+                      <img [src]="image"/>
+                    </div>
+                </ng-template>
+            </ngb-carousel>
+        </div>
+    </div>
+
+    <br><br>
 
 </div>

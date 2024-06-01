@@ -2,7 +2,18 @@
 
     <h1 id="title">La casa di Vito</h1>
 
-    <img id="corousel" src="assets/foto/la casa di Vito/1.jpg">
+    <div [ngClass]="{ 'fullScreen': isFullScreen }">
+        <div id="carouselContainer">
+            <img class="fullScreenIcon" [src]="isFullScreen ? 'assets/icons/full-screen-exit.png' : 'assets/icons/full-screen.png'" (click)="toggleFullScreen()">
+            <ngb-carousel #carousel>
+                <ng-template ngbSlide *ngFor="let image of images">
+                    <div class="picsum-img-wrapper">
+                      <img [src]="image" style="width: 100%;"/>
+                    </div>
+                </ng-template>
+            </ngb-carousel>
+        </div>
+    </div>
 
     <br><br><br><br>
 
