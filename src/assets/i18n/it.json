@@ -44,7 +44,8 @@
         "HEATING": "Riscaldamento",
         "FLAT_SCREEN_TV": "TV a schermo piatto",
         "SOFA_BED": "Divano letto",
-        "WASHING_MACHINE": "Lavatrice"
+        "WASHING_MACHINE": "Lavatrice",
+        "WIFI": "WiFi"
     }
     
 }
